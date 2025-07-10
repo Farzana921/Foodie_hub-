@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Foodie Hub</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ░░░ Navbar ░░░ -->
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm navbar-light" style="background-color: #ffffff;">
+
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Foodie Hub</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto gap-3">
+            <li class="nav-item"><a class="nav-link" href="#menu"><b>Menu</b></a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements"><b>Achievements</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials"><b>Testimonials</b></a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#contact"><b>Order</b></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ░░░ Hero Section ░░░ -->
+     
+    <!-- <header class="hero d-flex align-items-center"> 
+      <div class="container text-center text-lg-start">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="display-4 fw-bold mb-3">Welcome to Foodie Hub</h1>
+            <p class="lead text-muted mb-4">
+                Craving something delicious? <strong>Discover flavors from 8 countries</strong> and order now!
+            </p>
+            <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
+              <a href="#menu" class="btn btn-accent">Explore Menu</a>
+              <a href="#contact" class="btn btn-outline-accent">Place Order</a>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-4 mt-lg-0 text-center">
+            <img
+              src="images\image.jpg"
+              alt="Delicious Food"
+              class="img-fluid hero-img"
+            />
+          </div>
+        </div>
+      </div>
+    </header> -->
+
+    <!-- Hero Section -->
+<!-- Hero Section -->
+<section id="hero" style="background-color: #fff; padding: 60px 20px; text-align: center; font-family: Arial, sans-serif;">
+  <div style="max-width: 1000px; margin: 0 auto;">
+    
+    <!-- Heading & Intro -->
+    <h1 style="font-size: 3rem; color: #3E2723;">Welcome to Foodie Hub</h1>
+    <p style="font-size: 1.2rem; color: #555; margin: 20px 0;">
+      Founded by <strong>Farzana</strong> in 2025 – bringing you delicious tastes from 8 countries, served fresh to your table.
+    </p>
+
+    <!-- Founder Image -->
+    <img src="images\photo.jpg" alt="Founder Farzana" style="width:100px; height:100px; border-radius:50%; object-fit:cover; border:3px solid #3E2723;">
+    <p style="margin-top:10px; color:#3E2723; font-weight:bold;">Founder of Foodie Hub</p>
+
+    <!-- Restaurant Photo -->
+    <div style="margin-top: 30px;">
+      <img src="images\image.jpg" alt="Our Restaurant" style="width:100%; max-width:700px; border-radius:15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <p style="margin-top:10px; color:#777;">Our cozy and modern restaurant where the magic happens 🍽️</p>
+    </div>
+
+    <!-- Optional Call to Action Button -->
+    <a href="#menu" style="display:inline-block; margin-top:30px; background-color:#3E2723; color:#fff; padding:12px 24px; border-radius:30px; text-decoration:none; font-weight:bold;">
+      Explore Our Menu
+    </a>
+
+  </div>
+</section>
+
+
+<!-- ░░░ Our Specials Section ░░░ -->
+<section id="specials" class="py-5" style="background-color: #ffffff;">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color: var(--accent-color);">Taste dishes from around the world</h2>
+
+    <!-- Optional Category Tags -->
+    <div class="text-center mb-4">
+      <span class="me-3 text-secondary"><i class="bi bi-cup-hot-fill"></i> Breakfast</span>
+      <span class="me-3 text-secondary"><i class="bi bi-egg-fried"></i> Lunch</span>
+      <span class="text-secondary"><i class="bi bi-emoji-smile-fill"></i> Dinner</span>
+    </div>
+
+    <div class="row g-4">
+      <!-- Left Column -->
+      <div class="col-md-6">
+        <div class="d-flex mb-4 border-bottom pb-3">
+          <img src="images\Beef Steak.jpg" class="rounded me-3 shadow-sm" style="width: 90px; height: 90px; object-fit: cover;" />
+          <div>
+            <h5 class="mb-1" style="color: var(--accent-color);">
+              Beef Steak <span class="float-end style="color: #3E2723;">$20.25</span>
+            </h5>
+            <p class="text-muted small">Grilled beef with herbs, fries, salad & creamy mushroom sauce.</p>
+          </div>
+        </div>
+
+        <div class="d-flex mb-4 border-bottom pb-3">
+          <img src="images\Sushi Platter.jpg" class="rounded me-3 shadow-sm" style="width: 90px; height: 90px; object-fit: cover;" />
+          <div>
+            <h5 class="mb-1" style="color: var(--accent-color);">
+              Uramaki Sushi <span class="float-end style="color: #3E2723;">$25.00</span>
+            </h5>
+            <p class="text-muted small">Rice on the outside, seaweed inside — classic Japanese flavor.</p>
+          </div>
+        </div>
+
+        <div class="d-flex mb-4 border-bottom pb-3">
+          <img src="images\Spicy Chicken.jpg" class="rounded me-3 shadow-sm" style="width: 90px; height: 90px; object-fit: cover;" />
+          <div>
+            <h5 class="mb-1" style="color: var(--accent-color);">
+              Spicy Chicken <span class="float-end style="color: #3E2723;">$30.00</span>
+            </h5>
+            <p class="text-muted small">Tomato-gravy chicken with fiery Thai chili & home-style taste.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-md-6">
+        <div class="d-flex mb-4 border-bottom pb-3">
+          <img src="images\Mango Sticky Rice.jpg" class="rounded me-3 shadow-sm" style="width: 90px; height: 90px; object-fit: cover;" />
+          <div>
+            <h5 class="mb-1" style="color: var(--accent-color);">
+              Mango Sticky Rice <span class="float-end style="color: #3E2723;">$5.75</span>
+            </h5>
+            <p class="text-muted small">Thai mango dessert served with coconut rice.</p>
+          </div>
+        </div>
+
+        <div class="d-flex mb-4 border-bottom pb-3">
+          <img src="images\Eggs Benedict.jpg" class="rounded me-3 shadow-sm" style="width: 90px; height: 90px; object-fit: cover;" />
+          <div>
+            <h5 class="mb-1" style="color: var(--accent-color);">
+              Eggs Benedict <span class="float-end style="color: #3E2723;">$20.00</span>
+            </h5>
+            <p class="text-muted small">Poached eggs, bacon, muffins & creamy hollandaise sauce.</p>
+          </div>
+        </div>
+
+        <div class="d-flex mb-4 border-bottom pb-3">
+          <img src="images\Foi Thong.jpg" class="rounded me-3 shadow-sm" style="width: 90px; height: 90px; object-fit: cover;" />
+          <div>
+            <h5 class="mb-1" style="color: var(--accent-color);">
+              Foi Thong <span class="float-end style="color: #3E2723;">$5.25</span>
+            </h5>
+            <p class="text-muted small">Golden egg yolk threads in syrup — sweet and elegant.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- ░░░ Menu Section ░░░ -->
+    <section id="menu" class="py-5">
+  <div class="container">
+    <h2 class="mb-4 text-center" style="color: var(--accent-color);">Our Menu</h2>
+    <div class="row g-4">
+      <!-- Dish 1 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="images\Spaghetti Carbonara.jpg" class="card-img-top" alt="Spaghetti Carbonara" />
+          <div class="card-body">
+            <h5 class="card-title">Spaghetti Carbonara</h5>
+            <p class="card-text text-muted">Classic Italian pasta with creamy sauce and pancetta.</p>
+            <p class="fw-bold">$12.99</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dish 2 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="images/Sushi Platter.jpg" class="card-img-top" alt="Sushi Platter" />
+          <div class="card-body">
+            <h5 class="card-title">Sushi Platter</h5>
+            <p class="card-text text-muted">Fresh assortment of sushi rolls from Japan.</p>
+            <p class="fw-bold">$18.50</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dish 3 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="images/Tacos Al Pastor.jpg" class="card-img-top" alt="Tacos Al Pastor" />
+          <div class="card-body">
+            <h5 class="card-title">Tacos Al Pastor</h5>
+            <p class="card-text text-muted">Mexican street tacos with marinated pork and pineapple.</p>
+            <p class="fw-bold">$9.99</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dish 4 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="images\Vietnamese Pho.jpg" class="card-img-top" alt="Vietnamese Pho" />
+          <div class="card-body">
+            <h5 class="card-title">Vietnamese Pho</h5>
+            <p class="card-text text-muted">Aromatic beef noodle soup with herbs and rice noodles.</p>
+            <p class="fw-bold">$11.50</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dish 5 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="images\Peking Duck.webp" class="card-img-top" alt="Peking Duck" />
+          <div class="card-body">
+            <h5 class="card-title">Peking Duck</h5>
+            <p class="card-text text-muted">Crispy roasted duck served with pancakes and hoisin sauce.</p>
+            <p class="fw-bold">$22.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dish 6 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="images\Butter Chicken.jpg" class="card-img-top" alt="Butter Chicken" />
+          <div class="card-body">
+            <h5 class="card-title">Butter Chicken</h5>
+            <p class="card-text text-muted">Indian creamy tomato-based curry with tender chicken pieces.</p>
+            <p class="fw-bold">$13.75</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Hear From Our Community Section -->
+<section id="community-feedback" style="background:#f9f9f9; padding:50px 20px; font-family: Arial, sans-serif;">
+  <div style="max-width:1000px; margin:0 auto; text-align:center;">
+    <h2 style="color:#3E2723; font-size:2.5rem; margin-bottom:10px;">Hear From Our Community</h2>
+    <p style="color:#555; font-size:1.1rem; margin-bottom:40px;">
+      What our customers say about our services, food, and restaurant experience.
+    </p>
+    <div style="display:flex; gap:30px; flex-wrap: wrap; justify-content:center;">
+
+      <!-- Testimonial 1 -->
+      <div style="background:#fff; border-radius:10px; padding:20px; width:280px; box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);">
+        <img src="images\Sarah Johnson.jpg" alt="Customer 1" style="width:80px; height:80px; border-radius:50%; object-fit:cover; margin-bottom:15px;">
+        <p style="font-style: italic; color:#333; font-size:1rem;">
+          The food was absolutely delicious and fresh! The service was excellent too. Highly recommended.
+        </p>
+        <h4 style="color:#3E2723; margin-top:15px;">— Sarah Johnson</h4>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div style="background:#fff; border-radius:10px; padding:20px; width:280px; box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);">
+        <img src="images\Ahmed Ali.jpg" alt="Customer 2" style="width:80px; height:80px; border-radius:50%; object-fit:cover; margin-bottom:15px;">
+        <p style="font-style: italic; color:#333; font-size:1rem;">
+          Cozy atmosphere and friendly staff made my dining experience memorable. The variety of dishes from different countries was impressive.
+        </p>
+        <h4 style="color:#3E2723; margin-top:15px;">— Ahmed Ali</h4>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div style="background:#fff; border-radius:10px; padding:20px; width:280px; box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);">
+        <img src="images\Maria Gomez.jpg" alt="Customer 3" style="width:80px; height:80px; border-radius:50%; object-fit:cover; margin-bottom:15px;">
+        <p style="font-style: italic; color:#333; font-size:1rem;">
+          Fast delivery and the food arrived hot and fresh. Great taste and excellent packaging.
+        </p>
+        <h4 style="color:#3E2723; margin-top:15px;">— Maria Gomez</h4>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <!-- Achievements Section -->
+<!-- Achievements Section -->
+<section id="achievements" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-4" style="color: #3E2723;">Our Achievements</h2>
+    <div class="row g-4">
+
+      <!-- Achievement 1 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <img src="images\happy.png" alt="Happy Customers" class="mb-3" style="width: 60px;">
+            <h3 class="card-title" style="color: #3E2723;">5,000+</h3>
+            <p class="card-text">Happy Customers</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievement 2 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <img src="images\world-food.png" alt="World Dishes" class="mb-3" style="width: 60px;">
+            <h3 class="card-title" style="color: #3E2723;">8 Countries</h3>
+            <p class="card-text">International Dishes</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievement 3 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <img src="images\star-rating.png" alt="Rating" class="mb-3" style="width: 60px;">
+            <h3 class="card-title" style="color: #3E2723;">4.9 Stars</h3>
+            <p class="card-text">Google Reviews</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievement 4 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <img src="images\award.png" alt="Award" class="mb-3" style="width: 60px;">
+            <h3 class="card-title" style="color: #3E2723;">Award 2024</h3>
+            <p class="card-text">Best Local Restaurant</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  </div>
+</section>
+     <title>Order Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      padding: 20px;
+    }
+    .order-section {
+      background-color: #ffffff;
+      padding: 20px 30px;
+      border-radius: 8px;
+      max-width: 400px;
+      margin: 40px auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      color: #555;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+      font-size: 14px;
+    }
+    input[type="submit"] {
+      margin-top: 20px;
+      width: 100%;
+      background-color: #3E2723;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #3E2723;
+    }
+  </style>
+  <section class="order-section">
+    <h2>Place Your Order</h2>
+    <form action="/submit_order" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="order">Order Details:</label>
+      <textarea id="order" name="order" rows="4" required></textarea>
+
+      <input type="submit" value="Submit Order" />
+    </form>
+  </section>
+
+    <!-- ░░░ Footer ░░░ -->
+    <footer id="contact" class="footer py-4">
+      
+      <div class="container text-center">
+        <p class="mb-1">farzanaakbari29@gmail.com | +971 558 323 193</p>
+        <div class="social-icons mb-2">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+        </div>
+        <small>&copy; 2025 Foodie Hub. Created and managed by <strong>Farzana Akbari</strong>.</small>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+  </body>
+</html>
