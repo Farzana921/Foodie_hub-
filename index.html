@@ -1,97 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Foodie Hub</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="icon" href="images\hub.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <!-- ░░░ Navbar ░░░ -->
-    <nav class="navbar navbar-expand-lg sticky-top shadow-sm navbar-light" style="background-color: #ffffff;">
-
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm navbar-light bg-white">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#">Foodie Hub</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navMenu"
-        >
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+          <img src="images/icon.png" width="30" height="30" alt="Logo" />
+          <span class="fw-bold text-accent">Foodie Hub</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navMenu">
           <ul class="navbar-nav ms-auto gap-3">
+            <li class="nav-item"><a class="nav-link" href="#hero"><b>Home</b></a></li>
             <li class="nav-item"><a class="nav-link" href="#menu"><b>Menu</b></a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#achievements"><b>Achievements</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonials"><b>Testimonials</b></a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#contact"><b>Order</b></a></li>
+            <li class="nav-item"><a class="nav-link" href="#achievements"><b>Achievements</b></a></li>
+            <li class="nav-item"><a class="nav-link" href="#order"><b>Order</b></a></li>
+            <li class="nav-item"><a class="nav-link" href="#about"><b>About</b></a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact"><b>Contact</b></a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- ░░░ Hero Section ░░░ -->
-     
-    <!-- <header class="hero d-flex align-items-center"> 
-      <div class="container text-center text-lg-start">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <h1 class="display-4 fw-bold mb-3">Welcome to Foodie Hub</h1>
-            <p class="lead text-muted mb-4">
-                Craving something delicious? <strong>Discover flavors from 8 countries</strong> and order now!
-            </p>
-            <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
-              <a href="#menu" class="btn btn-accent">Explore Menu</a>
-              <a href="#contact" class="btn btn-outline-accent">Place Order</a>
-            </div>
-          </div>
-          <div class="col-lg-6 mt-4 mt-lg-0 text-center">
-            <img
-              src="images\image.jpg"
-              alt="Delicious Food"
-              class="img-fluid hero-img"
-            />
-          </div>
-        </div>
-      </div>
-    </header> -->
 
-    <!-- Hero Section -->
 <!-- Hero Section -->
 <section id="hero" style="background-color: #fff; padding: 60px 20px; text-align: center; font-family: Arial, sans-serif;">
   <div style="max-width: 1000px; margin: 0 auto;">
     
     <!-- Heading & Intro -->
     <h1 style="font-size: 3rem; color: #3E2723;">Welcome to Foodie Hub</h1>
-    <p style="font-size: 1.2rem; color: #555; margin: 20px 0;">
-      Founded by <strong>Farzana</strong> in 2025 – bringing you delicious tastes from 8 countries, served fresh to your table.
-    </p>
+    <section class="py-5">
+  <div class="container">
+    <div class="row text-center">
+      
+      <div class="col-md-3">
+        <i class="bi bi-globe2 fs-1 text-accent"></i>
+        <h5 class="mt-3">8 Countries’ Cuisine</h5>
+        <p class="text-muted">Taste the world with dishes from 8 different cultures.</p>
+      </div>
 
-    <!-- Founder Image -->
-    <img src="images\photo.jpg" alt="Founder Farzana" style="width:100px; height:100px; border-radius:50%; object-fit:cover; border:3px solid #3E2723;">
-    <p style="margin-top:10px; color:#3E2723; font-weight:bold;">Founder of Foodie Hub</p>
+      <div class="col-md-3">
+        <i class="bi bi-person-workspace fs-1 text-accent"></i>
+        <h5 class="mt-3">Expert Chefs</h5>
+        <p class="text-muted">Cooked by professionals with years of experience.</p>
+      </div>
+
+      <div class="col-md-3">
+        <i class="bi bi-egg-fried fs-1 text-accent"></i>
+        <h5 class="mt-3">Fresh Ingredients</h5>
+        <p class="text-muted">Only the freshest ingredients go into our dishes.</p>
+      </div>
+
+      <div class="col-md-3">
+        <i class="bi bi-clock-history fs-1 text-accent"></i>
+        <h5 class="mt-3">Fast Delivery</h5>
+        <p class="text-muted">Quick service, hot meals delivered to your table.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="d-flex align-items-center justify-content-center gap-3 mt-3">
+  <img src="images\photo.jpg" class="rounded-circle" width="60" height="60" alt="Founder Photo">
+  <p class="mb-0">
+    <strong>Farzana</strong><br>
+    <small class="text-muted">Founder of Foodie Hub</small>
+  </p>
+</div>
+
+<p class="text-center mt-3">
+  Founded in 2025 – bringing you delicious tastes from 8 countries, served fresh to your table.
+</p>
 
     <!-- Restaurant Photo -->
     <div style="margin-top: 30px;">
-      <img src="images\image.jpg" alt="Our Restaurant" style="width:100%; max-width:700px; border-radius:15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <img src="images\Foodie Hub.jpg" alt="Our Restaurant" style="width:100%; max-width:700px; border-radius:15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
       <p style="margin-top:10px; color:#777;">Our cozy and modern restaurant where the magic happens 🍽️</p>
     </div>
 
@@ -102,8 +99,6 @@
 
   </div>
 </section>
-
-
 <!-- ░░░ Our Specials Section ░░░ -->
 <section id="specials" class="py-5" style="background-color: #ffffff;">
   <div class="container">
@@ -123,8 +118,9 @@
           <img src="images\Beef Steak.jpg" class="rounded me-3 shadow-sm" style="width: 90px; height: 90px; object-fit: cover;" />
           <div>
             <h5 class="mb-1" style="color: var(--accent-color);">
-              Beef Steak <span class="float-end style="color: #3E2723;">$20.25</span>
+              Beef Steak <span class="float-end style="color: #3E2723;>$20.25</span>
             </h5>
+            <span class="badge bg-success mb-2">Available</span>
             <p class="text-muted small">Grilled beef with herbs, fries, salad & creamy mushroom sauce.</p>
           </div>
         </div>
@@ -133,9 +129,11 @@
           <img src="images\Sushi Platter.jpg" class="rounded me-3 shadow-sm" style="width: 90px; height: 90px; object-fit: cover;" />
           <div>
             <h5 class="mb-1" style="color: var(--accent-color);">
-              Uramaki Sushi <span class="float-end style="color: #3E2723;">$25.00</span>
+              Uramaki Sushi <span class="float-end style="color: #3E2723;>$25.00</span>
             </h5>
+              <span class="badge bg-danger mb-2">Unavailable</span>
             <p class="text-muted small">Rice on the outside, seaweed inside — classic Japanese flavor.</p>
+          
           </div>
         </div>
 
@@ -143,8 +141,9 @@
           <img src="images\Spicy Chicken.jpg" class="rounded me-3 shadow-sm" style="width: 90px; height: 90px; object-fit: cover;" />
           <div>
             <h5 class="mb-1" style="color: var(--accent-color);">
-              Spicy Chicken <span class="float-end style="color: #3E2723;">$30.00</span>
+              Spicy Chicken <span class="float-end style="color: #3E2723;>$30.00</span>
             </h5>
+            <span class="badge bg-success mb-2">Available</span>
             <p class="text-muted small">Tomato-gravy chicken with fiery Thai chili & home-style taste.</p>
           </div>
         </div>
@@ -156,8 +155,9 @@
           <img src="images\Mango Sticky Rice.jpg" class="rounded me-3 shadow-sm" style="width: 90px; height: 90px; object-fit: cover;" />
           <div>
             <h5 class="mb-1" style="color: var(--accent-color);">
-              Mango Sticky Rice <span class="float-end style="color: #3E2723;">$5.75</span>
+              Mango Sticky Rice <span class="float-end style="color: #3E2723;>$5.75</span>
             </h5>
+              <span class="badge bg-danger mb-2">Unavailable</span>
             <p class="text-muted small">Thai mango dessert served with coconut rice.</p>
           </div>
         </div>
@@ -166,8 +166,10 @@
           <img src="images\Eggs Benedict.jpg" class="rounded me-3 shadow-sm" style="width: 90px; height: 90px; object-fit: cover;" />
           <div>
             <h5 class="mb-1" style="color: var(--accent-color);">
-              Eggs Benedict <span class="float-end style="color: #3E2723;">$20.00</span>
+              Eggs Benedict <span class="float-end" style="color: #3E2723;">$20.25</span>
+
             </h5>
+            <span class="badge bg-success mb-2">Available</span>
             <p class="text-muted small">Poached eggs, bacon, muffins & creamy hollandaise sauce.</p>
           </div>
         </div>
@@ -176,8 +178,9 @@
           <img src="images\Foi Thong.jpg" class="rounded me-3 shadow-sm" style="width: 90px; height: 90px; object-fit: cover;" />
           <div>
             <h5 class="mb-1" style="color: var(--accent-color);">
-              Foi Thong <span class="float-end style="color: #3E2723;">$5.25</span>
+              Foi Thong <span class="float-end style="color: #3E2723;>$5.25</span>
             </h5>
+            <span class="badge bg-success mb-2">Available</span>
             <p class="text-muted small">Golden egg yolk threads in syrup — sweet and elegant.</p>
           </div>
         </div>
@@ -185,9 +188,97 @@
     </div>
   </div>
 </section>
+<!--  6 Restaurants Section -->
+<section id="restaurants" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center text-accent mb-5">Our Restaurants</h2>
+    <div class="row g-4">
+
+      <!-- Restaurant 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images\Tokyo Sushi.jpg" class="card-img-top" alt="Tokyo Sushi" style="height: 200px; object-fit: cover;" />
+          <div class="card-body">
+            <h5 class="card-title">Tokyo Sushi</h5>
+            <span class="badge bg-success mb-2">Available</span>
+            <p class="card-text text-muted">Authentic Japanese sushi and ramen. Located in Tokyo, Japan.</p>
+            <a href="#order" class="btn btn-accent">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Restaurant 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images\paris.jpg" class="card-img-top" alt="Paris Café" style="height: 200px; object-fit: cover;" />
+          <div class="card-body">
+            <h5 class="card-title">Paris Café</h5>
+            <span class="badge bg-success mb-2">Available</span>
+            <p class="card-text text-muted">Cozy French bistro with croissants and coffee. Paris, France.</p>
+            <a href="#order" class="btn btn-accent">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Restaurant 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images\Dubai Grill.jpg" class="card-img-top" alt="Dubai Grill" style="height: 200px; object-fit: cover;" />
+          <div class="card-body">
+            <h5 class="card-title">Dubai Grill</h5>
+            <span class="badge bg-success mb-2">Available</span>
+            <p class="card-text text-muted">Fusion dishes with a modern Middle Eastern twist. Dubai, UAE.</p>
+            <a href="#order" class="btn btn-accent">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Restaurant 4 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images\Taco Town.webp" class="card-img-top" alt="Taco Town" style="height: 200px; object-fit: cover;" />
+          <div class="card-body">
+            <h5 class="card-title">Taco Town</h5>
+           <span class="badge bg-danger mb-2">Unavailable</span>
+            <p class="card-text text-muted">Spicy and authentic street tacos served fresh. Mexico City.</p>
+            <a href="#order" class="btn btn-accent">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Restaurant 5 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images\Bangkok Bites.jpg" class="card-img-top" alt="Bangkok Bites" style="height: 200px; object-fit: cover;" />
+          <div class="card-body">
+            <h5 class="card-title">Bangkok Bites</h5>
+            <span class="badge bg-success mb-2">Available</span>
+            <p class="card-text text-muted">Thai street food favorites with vibrant flavors. Bangkok, Thailand.</p>
+            <a href="#order" class="btn btn-accent">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Restaurant 6 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images\Rome Italiano.jpg" class="card-img-top" alt="Rome Italiano" style="height: 200px; object-fit: cover;" />
+          <div class="card-body">
+            <h5 class="card-title">Rome Italiano</h5>
+             <span class="badge bg-danger mb-2">Unavailable</span>
+            <p class="card-text text-muted">Pasta, pizza, and more straight from Italy. Rome, Italy.</p>
+            <a href="#order" class="btn btn-accent">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 
-    <!-- ░░░ Menu Section ░░░ -->
+
+    <!-- Menu Section  -->
     <section id="menu" class="py-5">
   <div class="container">
     <h2 class="mb-4 text-center" style="color: var(--accent-color);">Our Menu</h2>
@@ -195,11 +286,13 @@
       <!-- Dish 1 -->
       <div class="col-md-4">
         <div class="card shadow-sm h-100">
-          <img src="images\Spaghetti Carbonara.jpg" class="card-img-top" alt="Spaghetti Carbonara" />
+          <img src="images\Spaghetti Carbonara.jpg" class="card-img-top" alt="Spaghetti Carbonara" style="width:415x; height: 210px; object-fit: cover;"  />
           <div class="card-body">
             <h5 class="card-title">Spaghetti Carbonara</h5>
             <p class="card-text text-muted">Classic Italian pasta with creamy sauce and pancetta.</p>
+              <span class="badge bg-success mb-2">Available</span>
             <p class="fw-bold">$12.99</p>
+              
           </div>
         </div>
       </div>
@@ -207,11 +300,13 @@
       <!-- Dish 2 -->
       <div class="col-md-4">
         <div class="card shadow-sm h-100">
-          <img src="images/Sushi Platter.jpg" class="card-img-top" alt="Sushi Platter" />
+          <img src="images/Sushi Platter.jpg" class="card-img-top" alt="Sushi Platter" style="width:415x; height: 210px; object-fit: cover;" />
           <div class="card-body">
             <h5 class="card-title">Sushi Platter</h5>
             <p class="card-text text-muted">Fresh assortment of sushi rolls from Japan.</p>
+             <span class="badge bg-success mb-2">Available</span>
             <p class="fw-bold">$18.50</p>
+             
           </div>
         </div>
       </div>
@@ -219,11 +314,13 @@
       <!-- Dish 3 -->
       <div class="col-md-4">
         <div class="card shadow-sm h-100">
-          <img src="images/Tacos Al Pastor.jpg" class="card-img-top" alt="Tacos Al Pastor" />
+          <img src="images/Tacos Al Pastor.jpg" class="card-img-top" alt="Tacos Al Pastor" style="width:415x; height: 210px; object-fit: cover;" />
           <div class="card-body">
             <h5 class="card-title">Tacos Al Pastor</h5>
             <p class="card-text text-muted">Mexican street tacos with marinated pork and pineapple.</p>
+            <span class="badge bg-success mb-2">Available</span>
             <p class="fw-bold">$9.99</p>
+              
           </div>
         </div>
       </div>
@@ -231,11 +328,13 @@
       <!-- Dish 4 -->
       <div class="col-md-4">
         <div class="card shadow-sm h-100">
-          <img src="images\Vietnamese Pho.jpg" class="card-img-top" alt="Vietnamese Pho" />
+          <img src="images\Vietnamese Pho.jpg" class="card-img-top" alt="Vietnamese Pho" style="width:415x; height: 210px; object-fit: cover;" />
           <div class="card-body">
             <h5 class="card-title">Vietnamese Pho</h5>
             <p class="card-text text-muted">Aromatic beef noodle soup with herbs and rice noodles.</p>
+            <span class="badge bg-success mb-2">Available</span>
             <p class="fw-bold">$11.50</p>
+
           </div>
         </div>
       </div>
@@ -243,10 +342,11 @@
       <!-- Dish 5 -->
       <div class="col-md-4">
         <div class="card shadow-sm h-100">
-          <img src="images\Peking Duck.webp" class="card-img-top" alt="Peking Duck" />
+          <img src="images\Peking Duck.webp" class="card-img-top" alt="Peking Duck" style="width:415x; height: 210px; object-fit: cover;" />
           <div class="card-body">
             <h5 class="card-title">Peking Duck</h5>
             <p class="card-text text-muted">Crispy roasted duck served with pancakes and hoisin sauce.</p>
+            <span class="badge bg-success mb-2">Available</span>
             <p class="fw-bold">$22.00</p>
           </div>
         </div>
@@ -255,10 +355,11 @@
       <!-- Dish 6 -->
       <div class="col-md-4">
         <div class="card shadow-sm h-100">
-          <img src="images\Butter Chicken.jpg" class="card-img-top" alt="Butter Chicken" />
+          <img src="images\Butter Chicken.jpg" class="card-img-top" alt="Butter Chicken" style="width:415x; height: 210px; object-fit: cover;" />
           <div class="card-body">
             <h5 class="card-title">Butter Chicken</h5>
             <p class="card-text text-muted">Indian creamy tomato-based curry with tender chicken pieces.</p>
+               <span class="badge bg-danger mb-2">Unavailable</span>
             <p class="fw-bold">$13.75</p>
           </div>
         </div>
@@ -269,6 +370,7 @@
 
     <!-- Hear From Our Community Section -->
 <section id="community-feedback" style="background:#f9f9f9; padding:50px 20px; font-family: Arial, sans-serif;">
+  <section id="Testimonial" class="py-5 bg-light"></section>
   <div style="max-width:1000px; margin:0 auto; text-align:center;">
     <h2 style="color:#3E2723; font-size:2.5rem; margin-bottom:10px;">Hear From Our Community</h2>
     <p style="color:#555; font-size:1.1rem; margin-bottom:40px;">
@@ -306,7 +408,6 @@
     </div>
   </div>
 </section>
-    <!-- Achievements Section -->
 <!-- Achievements Section -->
 <section id="achievements" class="py-5 bg-light">
   <div class="container text-center">
@@ -355,81 +456,66 @@
             <p class="card-text">Best Local Restaurant</p>
           </div>
         </div>
+   
+  </div>
+</section>
+       <section id="about" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <img src="images\team.jpg" alt="About Foodie Hub" class="img-fluid rounded shadow" style="width: 500x; height: 300px; " />
+          </div>
+          <div class="col-md-6">
+            <h2 class="text-accent mb-3">About Foodie Hub</h2>
+            <p class="text-muted">Foodie Hub is a modern food ordering platform where culture meets cuisine. Whether you're craving sushi from Japan or tacos from Mexico, we deliver authentic tastes with care and speed. Founded by Farzana Akbari in 2025, we aim to serve flavor with convenience across 8 countries.</p>
+          </div>
+        </div>
       </div>
-
-    </div>
-  </div>
+    </section>
 </section>
-
-  </div>
-</section>
-     <title>Order Form</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #ffffff;
-      padding: 20px;
-    }
-    .order-section {
-      background-color: #ffffff;
-      padding: 20px 30px;
-      border-radius: 8px;
-      max-width: 400px;
-      margin: 40px auto;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-      color: #333;
-    }
-    label {
-      font-weight: bold;
-      display: block;
-      margin-top: 15px;
-      margin-bottom: 5px;
-      color: #555;
-    }
-    input[type="text"],
-    input[type="email"],
-    textarea {
-      width: 100%;
-      padding: 8px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      resize: vertical;
-      font-size: 14px;
-    }
-    input[type="submit"] {
-      margin-top: 20px;
-      width: 100%;
-      background-color: #3E2723;
-      color: white;
-      border: none;
-      padding: 12px;
-      font-size: 16px;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    input[type="submit"]:hover {
-      background-color: #3E2723;
-    }
-  </style>
-  <section class="order-section">
-    <h2>Place Your Order</h2>
-    <form action="/submit_order" method="POST">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required />
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required />
-
-      <label for="order">Order Details:</label>
-      <textarea id="order" name="order" rows="4" required></textarea>
-
-      <input type="submit" value="Submit Order" />
-    </form>
-  </section>
+    <section id="order" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center text-accent mb-4">Place Your Order</h2>
+        <form action="#" class="row g-4">
+          <div class="col-md-6">
+            <label for="customerName" class="form-label fw-semibold">Customer Name</label>
+            <input type="text" class="form-control" id="customerName" required />
+          </div>
+          <div class="col-md-6">
+            <label for="phone" class="form-label fw-semibold">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" required />
+          </div>
+          <div class="col-md-6">
+            <label for="restaurant" class="form-label fw-semibold">Select Restaurant</label>
+            <select class="form-select" id="restaurant">
+              <option>Tokyo Sushi</option>
+              <option>Paris Café</option>
+              <option>Dubai Grill</option>
+              <option>Rome Italiano</option>
+              <option>Bangkok Bites</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label fw-semibold">Menu Items</label>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="dish1" />
+              <label class="form-check-label" for="dish1">Spaghetti Carbonara</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="dish2" />
+              <label class="form-check-label" for="dish2">Sushi Platter</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="dish3" />
+              <label class="form-check-label" for="dish3">Butter Chicken</label>
+            </div>
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-accent px-5">Submit Order</button>
+          </div>
+        </form>
+      </div>
+    </section>
 
     <!-- ░░░ Footer ░░░ -->
     <footer id="contact" class="footer py-4">
