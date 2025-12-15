@@ -27,16 +27,6 @@ Tools & Technologies Used:
 - Custom CSS (style.css)
 - Responsive media queries
 
-Folder Structure:
------------------
-- index.html
-- style.css
-- images/ (all used photos and icons)
-- screenshots/
-    • desktop-view.png
-    • tablet-view.png
-    • mobile-view.png
-
 
 
 Contact:
