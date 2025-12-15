@@ -1,8 +1,7 @@
-===========================================
+
         Foodie Hub – Frontend Project
         By: Farzana Akbari
         Date: July 2025
-===========================================
 
 Project Description:
 ---------------------
