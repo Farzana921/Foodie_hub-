@@ -37,17 +37,7 @@ Folder Structure:
     • tablet-view.png
     • mobile-view.png
 
-How to View:
-------------
-1. Extract the ZIP file.
-2. Open "index.html" in any modern browser (Chrome, Edge, Firefox).
-3. Make sure the "images" folder stays in the same directory as index.html.
 
-Submission Notes:
------------------
-- No JavaScript is used.
-- All layout and responsiveness handled with Bootstrap and custom CSS.
-- Project tested on desktop, tablet, and mobile views.
 
 Contact:
 --------
